@@ -1,6 +1,6 @@
-This is another version of the chat server (url).  However this version
-uses Require.JS.  I'm happy with it with one exception, but before that
-some terms since these two patterns use the word "module" to mean
+This is another version of the chat server (https://github.com/keithmgould/enterprise-chat).  
+However this version uses Require.JS.  I'm happy with it with one exception,
+but before that some terms since these two patterns use the word "module" to mean
 different things.  I'll say that Require.JS wins, and any file using the
 define method is a module (in my app.)  A Widget is used to mean a block
 of functionality corresponding to some dom element.  So a widget for me
