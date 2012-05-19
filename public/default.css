@@ -1,0 +1,23 @@
+#main {
+  width: 100%;
+}
+
+h1 { text-align: center; }
+
+#chatWindowModule {
+  background:#ccc;
+  height:300px;
+  padding:30px;
+  border:1px solid #474747;
+  overflow: auto;
+}
+
+#textBoxModule #message {
+  width: 80%;
+}
+
+.centered {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
