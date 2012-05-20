@@ -1,13 +1,6 @@
 This is another version of the chat server (https://github.com/keithmgould/enterprise-chat).  
 However this version uses Require.JS.  I'm happy with it with one exception,
-but before that some terms since these two patterns use the word "module" to mean
-different things.  I'll say that Require.JS wins, and any file using the
-define method is a module (in my app.)  A Widget is used to mean a block
-of functionality corresponding to some dom element.  So a widget for me
-is a module for Zakas.  In his talk at the end during Q&A someone
-actually brings this up.  As long as everyone is on the same page any
-term will do :)  And finally as for the component I'm unhappy with: the
-moduleLoader (which loades widgets), is really ugly.  There most be a
+the moduleLoader (which loades widgets), is really ugly.  There must be a
 better way.
 
 Here are the notes from the first version of the Chat Server:
